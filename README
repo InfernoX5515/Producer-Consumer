@@ -1,0 +1,7 @@
+This project creates and producer and consumer threads to show the producer-consumer problem. The table
+holds two items. The producer produces items if the table is not full. The consumer then consums these items.
+It will not try to consume items if the table is empty.
+
+To compile/run:
+gcc -pthread Producer.c -o Producer.out
+./Producer.out
