@@ -3,5 +3,5 @@ holds two items. The producer produces items if the table is not full. The consu
 It will not try to consume items if the table is empty.
 
 To compile/run:
-gcc -pthread Producer.c -o Producer.out
-./Producer.out
+gcc -pthread ProCon.c -o ProCon.out
+./ProCon.out
