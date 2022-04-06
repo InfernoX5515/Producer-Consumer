@@ -5,3 +5,29 @@ It will not try to consume items if the table is empty.
 To compile/run:
 gcc -pthread ProCon.c -o ProCon.out
 ./ProCon.out
+
+
+After compiled and run, the producer should produce and the consumer should consume. These statements are
+printed in your console.
+
+An example of the program running is as follows:
+Producer: Insert data 1804289383 in table slot 1 of 2
+Producer: Insert data 846930886 in table slot 2 of 2
+Consumer: Remove data 1804289383 from table slot 1
+Consumer: Remove data 846930886 from table slot 2
+Producer: Insert data 1681692777 in table slot 1 of 2
+Producer: Insert data 1714636915 in table slot 2 of 2
+Consumer: Remove data 1681692777 from table slot 1
+Consumer: Remove data 1714636915 from table slot 2
+Producer: Insert data 1957747793 in table slot 1 of 2
+Producer: Insert data 424238335 in table slot 2 of 2
+Consumer: Remove data 1957747793 from table slot 1
+Consumer: Remove data 424238335 from table slot 2
+Producer: Insert data 719885386 in table slot 1 of 2
+Producer: Insert data 1649760492 in table slot 2 of 2
+Consumer: Remove data 719885386 from table slot 1
+Consumer: Remove data 1649760492 from table slot 2
+Producer: Insert data 596516649 in table slot 1 of 2
+Producer: Insert data 1189641421 in table slot 2 of 2
+Consumer: Remove data 596516649 from table slot 1
+Consumer: Remove data 1189641421 from table slot 2
